@@ -24,6 +24,8 @@
 
 ### Environment
 
+Used this repo for video-rendering: https://github.com/sorceressyidi/4d-gaussian-splatting
+
 The hardware and software requirements are the same as those of the [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting), which this code is built upon. To setup the environment, please run the following command:
 
 ```shell
