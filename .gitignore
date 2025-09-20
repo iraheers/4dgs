@@ -21,3 +21,40 @@ eggs/
 .eggs/
 *.egg
 *.sh
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+*.egg-info/
+build/
+dist/
+
+# Images & media
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Datasets & outputs
+data/
+output/
+
+# Model checkpoints / large files
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache/

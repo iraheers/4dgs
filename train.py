@@ -80,6 +80,8 @@ def training(dataset, opt, pipe, testing_iterations, saving_iterations, checkpoi
      
     iteration = first_iter
     while iteration < opt.iterations + 1:
+        num_gauss = len(gaussians.get_xyz)
+        print(f"Iteration {iteration}: Num Gaussians = {num_gauss}")
         for batch_data in training_dataloader:
             iteration += 1
             if iteration > opt.iterations:
